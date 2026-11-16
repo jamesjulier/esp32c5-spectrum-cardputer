@@ -1,0 +1,10 @@
+# Build outputs & packages
+build/
+dist/
+*.deb
+*.o
+*.a
+*.so
+*.dylib
+esp32c5-spectrum
+.DS_Store
