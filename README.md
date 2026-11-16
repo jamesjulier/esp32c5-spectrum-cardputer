@@ -24,8 +24,12 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/cardputer-24ghz.jpg" width="460" alt="An M5Stack CardputerZero with a LilyGO T-Dongle-C5 plugged into the side USB port, showing a live 2.4 GHz spectrum and waterfall">
-  <img src="docs/images/cardputer-5ghz.jpg" width="460" alt="An M5Stack CardputerZero with a LilyGO T-Dongle-C5 plugged into the side USB port, showing a live 5 GHz ch 100-144 spectrum and waterfall">
+  <img src="docs/images/cardputer-launcher.jpg" width="600" alt="An M5Stack CardputerZero with a LilyGO T-Dongle-C5 plugged into the side USB port, showing the ESP32-C5 Spectrum icon in the launcher">
+</p>
+
+<p align="center">
+  <img src="docs/images/cardputer-24ghz.jpg" width="440" alt="An M5Stack CardputerZero with a LilyGO T-Dongle-C5 plugged into the side USB port, showing a live 2.4 GHz spectrum and waterfall">
+  <img src="docs/images/cardputer-5ghz.jpg" width="440" alt="An M5Stack CardputerZero with a LilyGO T-Dongle-C5 plugged into the side USB port, showing a live 5 GHz ch 100-144 spectrum and waterfall">
 </p>
 
 ## What is it?
