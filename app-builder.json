@@ -1,0 +1,34 @@
+{
+  "package_name": "esp32c5-spectrum",
+  "version": "0.1.0",
+  "app_name": "ESP32-C5 Spectrum",
+  "bin_name": "esp32c5-spectrum",
+  "description": "2.4 and 5 GHz Wi-Fi & RF spectrum analyser for ESP32-C5 over USB",
+  "store": {
+    "summary": "2.4 & 5 GHz spectrum analyser for an ESP32-C5 plugged into the side USB port",
+    "description": "Plug an ESP32-C5 board running esp32c5-spectrum (or ESP-SDR) into the CardputerZero's side USB port to view live 2.4 GHz and 5 GHz radio energy, scrolling waterfall history, spectral density, and Wi-Fi channel busy scorecards. Powered by ESP-SDR (Florian Euchner / ESPARGOS, GPL-3.0).",
+    "categories": ["Radio & Comms", "Hardware & IoT"],
+    "screenshots": [
+      "screenshots/main.png",
+      "screenshots/density.png",
+      "screenshots/channels.png"
+    ],
+    "icon": "packaging/icon.png",
+    "license": "GPL-3.0-or-later",
+    "source_repo": "https://github.com/jamesjulier/esp32c5-spectrum-cardputer",
+    "author": {
+      "github": "jamesjulier",
+      "display_name": "James Julier"
+    },
+    "share_code": "C5SP",
+    "permissions": {
+      "camera": false,
+      "microphone": false,
+      "imu": false,
+      "network": false,
+      "additional_hardware": true,
+      "background_service": false,
+      "external_display": false
+    }
+  }
+}
