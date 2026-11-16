@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+for u in pi admin m5stack; do
+    if id -u "$u" >/dev/null 2>&1; then
+        for grp in dialout plugdev video input render; do
+            if getent group "$grp" >/dev/null; then
+                usermod -aG "$grp" "$u" || true
+            fi
+        done
+    fi
+done
+exit 0
