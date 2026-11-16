@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "app_name": "ESP32-C5 Spectrum",
   "bin_name": "esp32c5-spectrum",
-  "description": "2.4 and 5 GHz Wi-Fi & RF spectrum analyser for ESP32-C5 over USB",
+  "description": "A 2.4 and 5 GHz Wi-Fi spectrum analyser for the price of a pizza, powered by an ESP32-C5 over USB",
   "store": {
-    "summary": "2.4 & 5 GHz spectrum analyser for an ESP32-C5 plugged into the side USB port",
-    "description": "Plug an ESP32-C5 board running esp32c5-spectrum (or ESP-SDR) into the CardputerZero's side USB port to view live 2.4 GHz and 5 GHz radio energy, scrolling waterfall history, spectral density, and Wi-Fi channel busy scorecards. Powered by ESP-SDR (Florian Euchner / ESPARGOS, GPL-3.0).",
+    "summary": "2.4 & 5 GHz Wi-Fi and RF spectrum analyser for an ESP32-C5 on the side USB port",
+    "description": "Your Wi-Fi scanner tells you which networks are around. It doesn't tell you about the microwave in the kitchen, the video sender in the corner, or the cheap camera hammering channel 6. This does.\n\nPlug an ESP32-C5 board (LilyGO T-Dongle-C5, Seeed XIAO ESP32-C5, or Waveshare ESP32-C5) running esp32c5-spectrum into the CardputerZero's side USB port to see all the radio energy across 2.4 and 5 GHz — with a live trace, peak hold, scrolling waterfall, spectral density view, Chanalyzer-style Wi-Fi channel masks, and a channel busy scorecard that names your quietest channel. Includes a built-in Demo Mode (press D) so you can explore the views without hardware attached.\n\nMade by JJ (James Julier). Radio backend powered by ESP-SDR by Florian Euchner (ESPARGOS), licensed under GPL-3.0.",
     "categories": ["Radio & Comms", "Hardware & IoT"],
     "screenshots": [
       "screenshots/main.png",
@@ -18,7 +18,7 @@
     "source_repo": "https://github.com/jamesjulier/esp32c5-spectrum-cardputer",
     "author": {
       "github": "jamesjulier",
-      "display_name": "James Julier"
+      "display_name": "JJ (James Julier)"
     },
     "share_code": "C5SP",
     "permissions": {
