@@ -24,7 +24,8 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/main.png" width="480" alt="The Live view on the 320x170 CardputerZero screen: 2.4 GHz trace with peak hold, Wi-Fi channel outlines and a scrolling waterfall">
+  <img src="docs/images/cardputer-24ghz.jpg" width="460" alt="An M5Stack CardputerZero with a LilyGO T-Dongle-C5 plugged into the side USB port, showing a live 2.4 GHz spectrum and waterfall">
+  <img src="docs/images/cardputer-5ghz.jpg" width="460" alt="An M5Stack CardputerZero with a LilyGO T-Dongle-C5 plugged into the side USB port, showing a live 5 GHz ch 100-144 spectrum and waterfall">
 </p>
 
 ## What is it?
@@ -47,6 +48,10 @@ receiver. I gave it a screen, buttons, a browser app, and now a native Linux fra
 CardputerZero.
 
 ## What you're looking at
+
+<p align="center">
+  <img src="screenshots/main.png" width="380" alt="The Live view on the 320x170 CardputerZero screen: 2.4 GHz trace with peak hold, Wi-Fi channel outlines and a scrolling waterfall">
+</p>
 
 - **The trace** is the level right now: red at the noise floor, green on strong signals (+36 dB).
   Wi-Fi shows up as a hump about 20 MHz wide. A narrow spike is usually something that isn't Wi-Fi
